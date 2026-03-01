@@ -1,0 +1,11 @@
+[Unit]
+Description=Run MBTA collect script every minute at second 0
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Persistent=true
+Unit=vehicles-collector.service
+
+[Install]
+WantedBy=timers.target

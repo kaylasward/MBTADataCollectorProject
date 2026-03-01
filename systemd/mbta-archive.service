@@ -1,0 +1,11 @@
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/mbta-scripts
+
+EnvironmentFile=/etc/mbta-archive.env
+
+ExecStart=/root/mbta-scripts/venv/bin/python -u /root/mbta-scripts/archive_upload.py
+
+StandardOutput=journal
+StandardError=journal

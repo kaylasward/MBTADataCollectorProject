@@ -1,0 +1,10 @@
+[Unit]
+Description=MBTA Vehicle Data Collector
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /root/mbta-scripts/vehicles-collector.py
+EnvironmentFile=/etc/mbta-collector.env
+WorkingDirectory=/root/mbta-scripts
+StandardOutput=append:/root/mbta-scripts/vehicles-collector.log
+StandardError=append:/root/mbta-scripts/vehicles-collector.log
