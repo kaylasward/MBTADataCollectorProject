@@ -1,0 +1,10 @@
+[Unit]
+Description=Run MBTA Archive Script Daily
+
+[Timer]
+OnCalendar=*-*-* 00:05:00
+Persistent=true
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target
