@@ -337,7 +337,9 @@ Compression remained stable across the month, with compressed archives scaling p
 
 The daily compression ratio (compressed size ÷ raw size) remained highly stable throughout January, averaging ~0.075. This indicates that archived data consistently compresses to roughly 7.5% of its original size (a ~92–93% reduction).
 
-Day-Day-to-day variation was minimal, even during weekends and the late-month storm window. The stability of this ratio suggests a consistent data structure and predictable archival results across varying transit volumes.#### Compression Throughput
+Day-Day-to-day variation was minimal, even during weekends and the late-month storm window. The stability of this ratio suggests a consistent data structure and predictable archival results across varying transit volumes.
+
+#### Compression Throughput
 
 ![](docs/plots/compression_throughput.png)
 
