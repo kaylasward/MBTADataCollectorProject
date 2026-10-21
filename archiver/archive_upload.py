@@ -11,7 +11,7 @@ from b2sdk.v2 import InMemoryAccountInfo, B2Api
 
 # -------- CONFIG --------
 BASE = "/root/mbta-data"
-LOG_FILE = "/root/mbta-data/archive-upload.log"
+LOG_FILE = "/root/mbta-data/archive_upload.log"
 
 TIMEZONE = ZoneInfo("America/New_York")
 
